@@ -1,0 +1,69 @@
+{
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "none",
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "off",
+    "typescript.check.npmIsInstalled": false,
+    "workbench.panel.location": "bottom",
+    "extensions.autoUpdate": false,
+    "open-in-browser.default": "firefox",
+    "window.titleBarStyle": "custom",
+    "terminal.integrated.cursorStyle": "line",
+    "blade.format.enable": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.iconTheme": "icons",
+    "editor.fontFamily": "fira code",
+    "editor.fontLigatures": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.renderWhitespace": "none",
+    "workbench.editor.pinnedTabSizing": "compact",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "workbench.layoutControl.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "maven.executable.path": "/home/mohamed_yousef/.maven/bin/mvn",
+    "editor.rulers": [
+        80
+    ],
+    "breadcrumbs.enabled": false,
+    "window.commandCenter": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.gpuAcceleration": "off",
+    "workbench.statusBar.visible": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "vue-html": "html"
+    },
+    "zenMode.hideLineNumbers": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.parameterHints.enabled": false,
+    "git.openRepositoryInParentFolders": "always",
+    "thunder-client.sidebar.layout": "compact",
+    "application.shellEnvironmentResolutionTimeout": 100,
+    "terminal.integrated.fontFamily": "hack",
+    "workbench.tree.enableStickyScroll": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "redhat.telemetry.enabled": false,
+    "cSpell.enableFiletypes": [
+        "ruby"
+    ],
+    "editor.stickyScroll.enabled": false,
+    "workbench.panel.opensMaximized": "always",
+    "workbench.colorTheme": "Deepdark Material Theme | Full Black Version",
+    "go.gopath": "/home/mohamed/.go/",
+    "go.toolsGopath": "/home/mohamed/.go/",
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "search.quickOpen.includeHistory": false,
+    "terminal.integrated.tabs.enabled": false,
+    "workbench.colorCustomizations": {
+        "sideBarTitle.foreground": "#00000000"
+    },
+    "workbench.activityBar.location": "hidden"
+}

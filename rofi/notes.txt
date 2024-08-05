@@ -1,0 +1,11 @@
+- Install Rofi
+- Add rofi scripts to ~/.local/share/rofi/plugins/
+- Choose rofi theme , and set the anchor: center
+  in the theme file , if has center issue 
+
+- Add the following commands to the shortcuts :
+    *rofi -modi drun,run -show drun -font "DejaVu Sans 12" -show-icons
+    *rofi -show files-explorer -modi files-explorer:~/.rofi/plugins/files-  
+     explorer.sh
+    *rofi -show power-menu -modi power-menu:~/.rofi/plugins/rofi-power-menu -
+     font "JetBrainsMono NF 14" --symbols

@@ -1,0 +1,41 @@
+1- Inside var/www/ create your domain :
+sudo mkdir -p mypersonaldomain.com/html/
+
+2- Give it permissions and ownership :
+sudo chown -R $USER:$USER /var/www/mypersonaldomain.com/html 
+sudo chmod -R 755 /var/www/mypersonaldomain.com 
+
+3- Create configuration file for your domain :
+sudo nano /etc/apache2/sites-available/mypersonaldomain.com.conf 
+
+4- Add the following lines :
+<VirtualHost *:80>
+	ServerAdmin admin@mypersonaldomain.com   
+	ServerName mypersonaldomain.com
+	ServerAlias www.mypersonaldomain.com
+	DocumentRoot /var/www/mypersonaldomain.com/html
+  
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+5- For each domain you will need to configure Apache default site :
+sudo a2ensite mypersonaldomain.com.conf
+
+And for default Apache site :
+sudo a2dissite 000-default.conf
+
+
+6- Check Apache config :
+sudo apache2ctl configtest 
+
+7- Add your domain to hosts :
+sudo nano /etc/hosts
+Then add it :
+127.0.0.1	mypersonaldomain.com
+
+8- Restart Apache :
+sudo systemctl restart apache2 
+
+
+enjoy :)

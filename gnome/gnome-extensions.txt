@@ -1,0 +1,6 @@
+activities_icons@fawtytoo
+blur-my-shell@aunetx
+desktopicons-neo@darkdemon
+hidetopbar@mathieu.bidon.ca
+no-overview@fthx
+transparent-top-bar@ftpix.com

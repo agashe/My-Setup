@@ -1,0 +1,40 @@
+domain(){
+    if [ "$1" == "en" ]; then
+        operation="a2ensite"
+    elif [ "$1" == "dis" ]; then
+        operation="a2dissite"
+    elif [ "$1" == "check" ]; then
+        apache2ctl -S
+        return 1
+    else
+        echo "Invalid Operation!";
+        return 1
+    fi
+    
+    if [ -z "$2" ]; then
+        domain="000-default.conf"
+    else
+        domain="$2"
+    fi
+    
+    sudo $operation $domain
+    sudo systemctl restart apache2
+}
+
+set_php(){
+    if [[ $1 -eq 7 ]]; then
+        old_version="8.0"
+        new_version="7.4"
+    elif [[ $1 -eq 8 ]]; then
+        old_version="7.4"
+        new_version="8.0"
+    else
+        echo "Unknown Varsion!"
+        return 1
+    fi
+
+    sudo update-alternatives --set php "/usr/bin/php$new_version"
+    sudo a2dismod "php$old_version"
+    sudo a2enmod "php$new_version"
+    sudo systemctl restart apache2
+}

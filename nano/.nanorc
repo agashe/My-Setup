@@ -1,0 +1,11 @@
+# general configs
+set linenumbers
+set tabstospaces
+set tabsize 4
+#set autoindent
+
+# key bindings
+bind ^z undo main
+bind ^y redo main
+
+# remvoe space highlighting
