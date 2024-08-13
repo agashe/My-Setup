@@ -58,6 +58,7 @@
       <property name="&lt;Super&gt;KP_Enter" type="string" value="xfce4-appfinder"/>
       <property name="&lt;Super&gt;F4" type="string" value="xfce4-terminal --drop-down"/>
       <property name="&lt;Super&gt;g" type="string" value="gedit"/>
+      <property name="&lt;Super&gt;b" type="string" value="gnote"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
