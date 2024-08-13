@@ -59,3 +59,12 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-r> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 nnoremap <C-e> :NERDTreeFocus<CR>
+
+" AutoClose
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
