@@ -23,7 +23,7 @@ sudo apt install curl wget htop vim nano p7zip-full unar tmux neofetch cmatrix l
 * Gnome apps
  
 ```
-sudo apt install gnote gedit
+sudo apt install gnote gedit nautilus gnome-terminal
 ```
 
 * Chrome browser

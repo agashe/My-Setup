@@ -89,5 +89,36 @@
     {
         "key": "ctrl+shift+o",
         "command": "-workbench.action.gotoSymbol"
-    }
+    },
+    {
+        "key": "ctrl+left",
+        "command": "cursorWordPartLeft"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "cursorWordPartRight"
+    },
+    {
+        "key": "ctrl+shift+right",
+        "command": "cursorWordPartRightSelect"
+    },
+    {
+        "key": "ctrl+shift+left",
+        "command": "cursorWordPartLeftSelect"
+    },
+    {
+        "key": "ctrl+home",
+        "command": "cursorTop",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+end",
+        "command": "-cursorBottom",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
 ]

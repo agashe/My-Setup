@@ -1,3 +1,6 @@
+# Linux Aliases
+alias bat="batcat"
+
 # Git Aliases
 alias cs="clear"
 alias log="git log"
@@ -45,6 +48,11 @@ acp(){
     git push origin master
 }
 
+tag(){
+    git tag "$1"
+    git push origin "$1"
+}
+
 # Artisan Aliases
 alias serve="php artisan serve"
 alias migrate="php artisan migrate"
@@ -71,10 +79,10 @@ alias ap_restart="sudo systemctl restart apache2"
 alias ap_check="sudo apache2ctl configtest"
 
 # Add GoLang To $PATH
-# PATH=$PATH:/opt/go/bin
+PATH=$PATH:/opt/go/bin
 
 # Add Go Plugins To $PATH
-# export GOPATH=$HOME/.go
+export GOPATH=$HOME/.go
 
 # Add Protoc To $PATH
 # PATH=$PATH:/opt/protoc/bin
@@ -95,3 +103,6 @@ export NVM_DIR="$HOME/.nvm"
 # Docker Max HTTP Timeout
 # export DOCKER_CLIENT_TIMEOUT=360
 # export COMPOSE_HTTP_TIMEOUT=360
+
+# Added by Antigravity CLI installer
+export PATH="$HOME/.local/bin:$PATH"

@@ -38,3 +38,8 @@ vscode-icons-team.vscode-icons
 znck.vue
 zobo.php-intellisense
 zxh404.vscode-proto3
+ms-vscode-remote.remote-containers
+neilbrayfield.php-docblocker
+sigmaphp.sigmaphp-vs-code-extension
+xdebug.php-debug
+xdebug.php-pack

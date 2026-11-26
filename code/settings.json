@@ -5,7 +5,7 @@
     "files.autoSave": "off",
     "typescript.check.npmIsInstalled": false,
     "workbench.panel.location": "bottom",
-    "extensions.autoUpdate": false,
+    "extensions.autoUpdate": "off",
     "open-in-browser.default": "firefox",
     "window.titleBarStyle": "custom",
     "terminal.integrated.cursorStyle": "line",
@@ -54,7 +54,7 @@
     ],
     "editor.stickyScroll.enabled": false,
     "workbench.panel.opensMaximized": "always",
-    "workbench.colorTheme": "Deepdark Material Theme | Full Black Version",
+    "workbench.colorTheme": "Dracula Theme",
     "go.gopath": "/home/mohamed/.go/",
     "go.toolsGopath": "/home/mohamed/.go/",
     "[blade]": {
@@ -65,5 +65,22 @@
     "workbench.colorCustomizations": {
         "sideBarTitle.foreground": "#00000000"
     },
-    "workbench.activityBar.location": "hidden"
+    "terminal.integrated.initialHint": false,
+    "window.confirmBeforeClose": "always",
+    "window.confirmSaveUntitledWorkspace": false,
+    "chat.titleBar.signIn.enabled": false,
+    "json.schemaDownload.trustedDomains": {
+        "https://developer.microsoft.com/json-schemas/": true,
+        "https://json-schema.org/": true,
+        "https://json.schemastore.org/": true,
+        "https://raw.githubusercontent.com": true,
+        "https://raw.githubusercontent.com/devcontainers/spec/": true,
+        "https://raw.githubusercontent.com/microsoft/vscode/": true,
+        "https://schemastore.azurewebsites.net/": true,
+        "https://www.schemastore.org/": true,
+        "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json": true
+    },
+    "terminal.integrated.stickyScroll.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "workbench.browser.openLocalhostLinks": false
 }
